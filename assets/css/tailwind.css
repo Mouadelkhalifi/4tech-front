@@ -1,0 +1,31 @@
+/* This is the main CSS file for TailwindCSS within your project. */
+@tailwind base;     /* Injects Tailwind's base styles, which are global styles for your project */
+@tailwind components; /* Injects Tailwind's component classes, useful for extracting component classes */
+@tailwind utilities; /* Injects Tailwind's utility classes, which is the bulk of the CSS you will use */
+
+/* Optionally, you can add custom styles or overrides here */
+@layer base {
+  /* You can add global styles to elements directly, e.g., */
+  h1 {
+    @apply text-2xl; /* Applying Tailwind utility to ensure consistency */
+  }
+}
+
+@layer components {
+  /* Example of a custom button component */
+  .btn-primary {
+    @apply bg-blue-500 text-white py-2 px-4 rounded;
+  }
+}
+
+@layer utilities {
+  /* Example of a custom utility class, possibly for responsive margins */
+  .margin-md {
+    margin: 16px;
+  }
+}
+
+
+
+
+

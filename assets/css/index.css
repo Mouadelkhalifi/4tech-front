@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../../public/fonts/Inter-SemiBold.ttf') format('ttf'),
+    url('../../public/fonts/Inter-SemiBold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Druk';
+    src: url('../../public/fonts/Druk-Heavy-Trial.otf') format('otf'),
+    url('../../public/fonts/Druk-Heavy-Trial.otf') format('otf');
+    font-weight: 600;
+    font-style: normal;
+}
+
